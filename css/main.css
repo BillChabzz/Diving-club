@@ -54,6 +54,9 @@ ul{
     width: 100%;
     margin: 0 auto;
 }
+.nav__list  a{
+    padding: 3%
+}
 .list__item{
     text-transform: uppercase;
     color: #fff !important;
