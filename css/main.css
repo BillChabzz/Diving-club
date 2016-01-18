@@ -45,6 +45,7 @@ ul{
 .text__slim{
     font-weight:100;
 }
+
 /*
  *
  * Top level navigation
@@ -62,4 +63,16 @@ ul{
     color: #fff !important;
     padding: 2%;
     display: inline-block;
+}
+/*
+ *
+ *Events section
+ *
+ */
+.circular__holder{
+    width: 304px;
+    height: 304px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: top;
 }
