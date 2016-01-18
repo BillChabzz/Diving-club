@@ -14,7 +14,7 @@ ul{
     padding: 0;
     margin: 0;
 }
-.social{width: 70px;border: 1px solid #000;border-radius: 50%;}
+.social{width: 70px;border: 1px solid #000;border-radius: 50%;padding: %;}
 /*
  * 
  * Header
@@ -67,13 +67,50 @@ ul{
 }
 /*
  *
+ *treasures
+ *
+ */
+#treasures{
+    padding: 5% 0;
+    background-color:#E65100;
+    color: #fff;
+}
+.text__slim{
+    font-size: 3em;
+    font-weight: 100;
+}
+.text__bold{
+    font-size: 3em;
+    font-weight: 700;
+}
+.read__more_treasure{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 2%;
+    padding: 2% 3%;
+    background-color: #212121;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+/*
+ *
  *Events section
  *
  */
+#events{
+    background-color: #eeeeee;
+    padding: 5% 0;
+}
 .circular__holder{
     width: 304px;
     height: 304px;
     border-radius: 50%;
     overflow: hidden;
     background-position: top;
+    transform: translateX(25px)
+}
+.event_description{
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
 }
